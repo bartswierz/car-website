@@ -35,9 +35,27 @@ html {
 .container {
   /* centers our content */
   margin: 0 auto;
-  max-width: 130rem;
+  max-width: 120rem;
   height: 80rem;
   border: 0.25rem solid rgb(23, 75, 245);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* quick flex attribute to organize our section */
+.flex-container {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+}
+
+/* centers our headers */
+.heading-center {
+  text-align: center;
+  margin: 2rem;
 }
 
 /******************************************************/
@@ -114,11 +132,6 @@ html {
   font-size: 2.4rem;
 }
 
-.company-heading {
-  text-align: center;
-  margin: 2rem;
-}
-
 .company-description {
   text-align: center;
   /* width: 75%; */
@@ -132,9 +145,10 @@ html {
 .company-container {
   /* centers our content */
   margin: 0 auto;
-  max-width: 130rem;
+  max-width: 120rem;
   height: 50rem;
   border: 0.25rem solid rgb(23, 75, 245);
+  margin-bottom: 6rem;
 }
 
 .emph {
@@ -146,4 +160,16 @@ html {
 
 .detailing-section {
   font-size: 2rem;
+  margin-bottom: 8rem;
+}
+
+.detailing-image {
+  width: 95%;
+  height: 80rem;
+}
+
+.detailing-description {
+  /* justify-content: center; */
+  /* margin-right: 10rem; */
+  /* row-gap: 1rem; */
 }
