@@ -176,13 +176,12 @@ html {
 }
 
 .detail-content {
-  padding-top: 10rem;
-  border: 0.25rem solid red;
-  text-align: center;
-  /* width: 50%; */
-  align-content: end;
   padding-right: 2rem;
+  padding-top: 10rem;
   margin-bottom: 2rem;
+  line-height: 4rem;
+  font-size: 2.8rem;
+  text-align: center;
 }
 
 .price-content {
@@ -196,8 +195,12 @@ html {
 
 .price {
   /* color: purple; */
+  font-size: 3.2rem;
 }
 
+.price-text {
+  font-size: 2rem;
+}
 .price-note {
   margin-top: 0.7rem;
   font-size: 1.3rem;
@@ -232,4 +235,16 @@ html {
   position: absolute;
   bottom: 5%;
   left: 47%;
+}
+
+.quote-btn:active,
+.quote-btn:hover {
+  color: rgb(23, 138, 245);
+  border-color: rgb(23, 138, 245);
+}
+
+.appointment-btn:active,
+.appointment-btn:hover {
+  color: rgb(23, 138, 245);
+  border-color: rgb(23, 138, 245);
 }
