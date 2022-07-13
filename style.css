@@ -24,6 +24,7 @@ background-color: rgb(15, 15, 15);
 html {
   /* 1 rem = 10px */
   font-size: 62.5%;
+  /* font-family: rubik; */
   font-family: rubik;
   font-weight: 600;
 }
@@ -58,8 +59,20 @@ html {
   margin: 2rem;
 }
 
+.heading-detail {
+  text-align: center;
+  margin: 2rem;
+  font-size: 3.3rem;
+}
+
+/* underline important text */
 .emph {
   text-decoration: underline double red;
+}
+
+/* for section spacing */
+.spacing {
+  margin-bottom: 8rem;
 }
 
 /******************************************************/
@@ -164,9 +177,19 @@ html {
   margin-bottom: 8rem;
 }
 
+/* image on left-hand side */
 .detail-image {
   width: 95%;
   height: 80rem;
+}
+
+/* image on right-hand side */
+.detail-image-right {
+  width: 100%;
+  height: 80rem;
+  /* justify-content: right; */
+  /* grid-area: right; */
+  padding-left: 2rem;
 }
 
 .detail-description {
@@ -175,8 +198,19 @@ html {
   position: relative;
 }
 
+/* content on right-hand side */
 .detail-content {
   padding-right: 2rem;
+  padding-top: 10rem;
+  margin-bottom: 2rem;
+  line-height: 4rem;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+/* content on left-hand side */
+.detail-content-left {
+  padding-left: 2rem;
   padding-top: 10rem;
   margin-bottom: 2rem;
   line-height: 4rem;
