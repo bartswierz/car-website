@@ -3,6 +3,8 @@ FONT COLORS
 MAIN COLOR:   color: rgb(23, 75, 245)
 HOVER COLOR:  color: rgba(0, 89, 255, 0.534)
 
+DETAIL CONTENT: color: rgba(255, 255, 255, 0.856);
+
 color: rgb(0, 89, 255);
 color: rgb(1, 72, 204);
 color: rgb(26, 96, 224);
@@ -17,8 +19,10 @@ background-color: rgb(15, 15, 15);
   margin: 0;
   padding: 0;
   color: rgb(23, 75, 245);
+  /* color: rgb(204, 15, 15); */
   box-sizing: border-box;
-  background-color: rgb(15, 15, 15);
+  /* background-color: rgb(15, 15, 15); */
+  background-color: rgb(27, 27, 27);
 }
 
 html {
@@ -63,6 +67,11 @@ html {
   text-align: center;
   margin: 2rem;
   font-size: 3.3rem;
+
+  /* Changes font style for our detail headers */
+  font-family: splash;
+  font-size: 5rem;
+  font-weight: 400;
 }
 
 /* underline important text */
@@ -75,6 +84,11 @@ html {
   margin-bottom: 8rem;
 }
 
+/* .font-style {
+  font-family: splash;
+  font-size: 5rem;
+} */
+
 /******************************************************/
 /* NAV SECTION */
 /******************************************************/
@@ -84,7 +98,7 @@ html {
   /* background-color: rgba(170, 5, 5, 0); */
   color: rgb(23, 75, 245);
   font-family: splash;
-  font-weight: 600;
+  font-weight: 400;
   margin-left: 6rem;
 }
 
@@ -126,7 +140,7 @@ html {
   /* max-width: 100vw; */
   width: 100vw;
   /* height: 80rem; */
-  height: 100vh;
+  height: 75vh;
   /* max-height: 100vh; */
 
   /* position: absolute; */
@@ -198,24 +212,40 @@ html {
   position: relative;
 }
 
-/* content on right-hand side */
+/* content on RIGHT-HAND side */
 .detail-content {
   padding-right: 2rem;
-  padding-top: 10rem;
+  /* padding-top: 10rem; */
   margin-bottom: 2rem;
   line-height: 4rem;
-  font-size: 2.8rem;
+  font-size: 2rem;
   text-align: center;
+  color: rgba(255, 255, 255, 0.856);
 }
 
-/* content on left-hand side */
+/* content on LEFT-HAND side */
 .detail-content-left {
   padding-left: 2rem;
-  padding-top: 10rem;
+  /* padding-top: 10rem; */
   margin-bottom: 2rem;
   line-height: 4rem;
-  font-size: 2.8rem;
+  font-size: 2rem;
   text-align: center;
+  color: rgba(255, 255, 255, 0.856);
+}
+
+.detail-list {
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  list-style: none;
+  margin-left: 1rem;
+  /* text-align: center; */
+}
+
+.checkmark {
+  color: green;
+  margin-right: 1rem;
 }
 
 .price-content {
@@ -228,7 +258,6 @@ html {
 }
 
 .price {
-  /* color: purple; */
   font-size: 3.2rem;
 }
 
@@ -238,7 +267,6 @@ html {
 .price-note {
   margin-top: 0.7rem;
   font-size: 1.3rem;
-  /* width: 50%; */
   color: #555;
 }
 
