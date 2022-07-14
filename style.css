@@ -55,7 +55,6 @@ html {
   max-width: 120rem;
   height: 80rem;
   /* border: 0.25rem solid rgb(23, 75, 245); */
-  /* box-shadow: 0px 2px 0px red; */
 }
 
 /* Exterior */
@@ -63,8 +62,14 @@ html {
   box-shadow: 34px 30px 0px rgb(190 190 190), 1px 1px 55px rgb(23 75 245);
 }
 
+/* Blue Brand Glow */
 .box-shadow-2 {
   box-shadow: 1px 1px 55px rgb(23 75 245);
+}
+
+/* White Brand Glow */
+.box-shadow-2 {
+  box-shadow: 1px 1px 55px rgb(190 190 190);
 }
 
 .grid-container {
@@ -75,8 +80,6 @@ html {
 /* quick flex attribute to organize our section */
 .flex-container {
   display: flex;
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
 }
 
 /* centers our headers */
@@ -98,16 +101,13 @@ html {
 
 /* underline important text */
 .emph {
-  /* text-decoration: underline double red; */
-  /* display: block; */
-  /* text-decoration-thickness: 10rem; */
   text-decoration: underline rgba(255, 255, 255, 0.856);
   text-decoration-thickness: 2px;
 }
 
 /* for section spacing */
 .spacing {
-  margin-bottom: 8rem;
+  margin-bottom: 12rem;
 }
 
 /* gives text the "splash" font style */
@@ -166,6 +166,23 @@ html {
   position: relative;
 }
 
+.down-arrow {
+  /* uses hero-section to positon */
+  position: absolute;
+  font-size: 5rem;
+  bottom: 3%;
+  left: 50%;
+  background: none;
+  cursor: pointer;
+  color: rgb(65, 65, 65);
+}
+
+.down-arrow:hover,
+.down-arrow:active {
+  /* slightly increases buttons size during hover*/
+  transform: scale(1.2);
+}
+
 .hero-image {
   width: 100vw;
   height: 80vh;
@@ -206,6 +223,7 @@ html {
   max-width: 120rem;
   height: 55rem;
   margin-bottom: 12rem;
+  margin-top: 7rem;
   /* border: 0.25rem solid rgb(23, 75, 245); */
 }
 
@@ -286,7 +304,6 @@ html {
 /* content on RIGHT-HAND side */
 .detail-content {
   padding-right: 2rem;
-  /* padding-top: 10rem; */
   margin-bottom: 2rem;
   line-height: 4rem;
   font-size: 1.8rem;
@@ -297,7 +314,6 @@ html {
 /* content on LEFT-HAND side */
 .detail-content-left {
   padding-left: 2rem;
-  /* padding-top: 10rem; */
   margin-bottom: 2rem;
   line-height: 4rem;
   font-size: 2rem;
@@ -311,7 +327,6 @@ html {
   line-height: 2.5rem;
   list-style: none;
   margin-left: 1rem;
-  /* text-align: center; */
 }
 
 .detail-list-left {
@@ -320,7 +335,6 @@ html {
   line-height: 2.5rem;
   list-style: none;
   margin-left: 5rem;
-  /* text-align: center; */
 }
 
 .checkmark {
@@ -338,7 +352,6 @@ html {
 }
 
 .price {
-  /* font-size: 3.2rem; */
   font-size: 3.6rem;
 }
 
@@ -354,7 +367,6 @@ html {
 .quote-btn {
   font-size: 1.7rem;
   border-radius: 12px;
-  /* background-color: rgb(23, 119, 245); */
   border: 0.25rem solid rgb(23, 75, 245);
   padding: 1rem;
   text-decoration: none;
@@ -367,10 +379,10 @@ html {
 .appointment-btn {
   font-size: 1.7rem;
   border-radius: 12px;
-  /* background-color: rgb(23, 119, 245); */
   border: 0.25rem solid rgb(23, 75, 245);
   padding: 1rem;
   text-decoration: none;
+
   /* Fixes buttons from overlapping */
   display: inline-block;
 
@@ -402,8 +414,6 @@ html {
 
 .appointment-section {
   font-size: 3rem;
-  /* margin-bottom: 18rem; */
-  /* border: 0.25rem solid blue; */
   position: relative;
 }
 
@@ -416,12 +426,14 @@ html {
 
 .appointment-heading {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .appointment-message {
   font-size: 2rem;
   margin-left: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .form-box {
