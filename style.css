@@ -243,6 +243,15 @@ html {
   /* text-align: center; */
 }
 
+.detail-list-left {
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  list-style: none;
+  margin-left: 5rem;
+  /* text-align: center; */
+}
+
 .checkmark {
   color: green;
   margin-right: 1rem;
