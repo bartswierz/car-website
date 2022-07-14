@@ -72,8 +72,8 @@
       </div>
 
       <!-- COMPANY SECTION -->
-      <div class="company-section company-container">
-        <h1 class="heading-detail">
+      <div class="company-section company-container box-shadow-2">
+        <h1 class="company-heading">
           Redline Detailing & Paint Protection Services
         </h1>
         <p class="company-description">
@@ -97,7 +97,9 @@
           your car or schedule an appointment below.
         </p>
         <a class="contact-btn" href="#">Contact Us</a>
-        <a class="company-appointment-btn" href="#">Schedule Appointment</a>
+        <a class="company-appointment-btn" href="#appointment"
+          >Schedule Appointment</a
+        >
       </div>
 
       <!-- DETAILING SECTION - Z-PATTERN -->
@@ -234,7 +236,7 @@
               <div class="price-content">
                 <div class="price">
                   <span class="price-text">Starting at</span>
-                  <span class="emph">$399</span>
+                  <span class="emph">$199</span>
                 </div>
 
                 <div class="price-note">
@@ -243,7 +245,9 @@
                 </div>
               </div>
               <a class="quote-btn" href="#">Get a Quote</a>
-              <a class="appointment-btn" href="#">Schedule Appointment</a>
+              <a class="appointment-btn" href="#appointment"
+                >Schedule Appointment</a
+              >
             </div>
           </div>
         </div>
@@ -377,7 +381,9 @@
                 </div>
               </div>
               <a class="quote-btn" href="#">Get a Quote</a>
-              <a class="appointment-btn" href="#">Schedule Appointment</a>
+              <a class="appointment-btn" href="#appointment"
+                >Schedule Appointment</a
+              >
             </div>
             <!-- IMAGE RIGHT -->
             <img src="./img/car-interior5.jpg" class="detail-image-right" />
@@ -488,7 +494,9 @@
                 </div>
               </div>
               <a class="quote-btn" href="#">Get a Quote</a>
-              <a class="appointment-btn" href="#">Schedule Appointment</a>
+              <a class="appointment-btn" href="#appointment"
+                >Schedule Appointment</a
+              >
             </div>
           </div>
         </div>
@@ -568,7 +576,9 @@
                 </div>
               </div>
               <a class="quote-btn" href="#">Get a Quote</a>
-              <a class="appointment-btn" href="#">Schedule Appointment</a>
+              <a class="appointment-btn" href="#appointment"
+                >Schedule Appointment</a
+              >
             </div>
             <!-- IMAGE LEFT -->
             <img src="./img/car-wrap.jpg" class="detail-image-right" />
@@ -577,7 +587,10 @@
       </div>
       <!-- END DETAIL SECTION -->
       <!-- APPOINTMENT SECTION -->
-      <div class="appointment-section appointment-container box-shadow">
+      <div
+        class="appointment-section appointment-container box-shadow"
+        id="appointment"
+      >
         <h1 class="appointment-heading font-style">Schedule Appointment</h1>
         <!-- <img src="./img/tachometer.jpg" class="appointment-image" /> -->
         <p class="appointment-message">
@@ -589,7 +602,7 @@
           <!-- Refer to MDN web docs <option> -->
 
           <fieldset class="service-types">
-            <legend>Please choose services</legend>
+            <legend>Please choose service</legend>
             <div class="service-checkbox">
               <input type="checkbox" id="exterior" name="exterior" />
               <label for="exterior">Exterior</label>
@@ -607,58 +620,79 @@
               <label for="wraps">Custom Car Wrap</label>
             </div>
           </fieldset>
-          <!-- Car Type -->
-          <div class="form-box">
-            <label for="car-type">Car Type*</label>
-            <select id="car-type">
-              <option value="">Choose Car Type</option>
-              <option value="sedan">Sedan</option>
-              <option value="suv">SUV</option>
-              <option value="van">Van</option>
-              <option value="truck">Truck</option>
-              <option value="commercial">Commercial</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <!-- Email Address -->
-          <div class="form-box">
-            <label for="email">Email Address*</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="name@example.com"
-              required
-            />
-          </div>
-          <!-- Phone Number -->
-          <div class="form-box">
-            <label for="phone">Phone Number(optional)</label>
-            <input
-              type="text"
-              name="phone"
-              id="phone"
-              placeholder="123-456-7890"
-            />
-          </div>
 
-          <div class="form-box">
-            <label for="address">Street Address*</label>
-            <input
-              type="text"
-              name="address"
-              id="address"
-              placeholder="123 somestreet road"
-            />
+          <!-- Car Type -->
+          <div class="car-form">
+            <div class="form-box">
+              <label for="car-type">Car Type<span class="astr">*</span></label>
+              <select name="car-type" id="car-type" required>
+                <option value="">Choose Car Type</option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="van">Van</option>
+                <option value="truck">Truck</option>
+                <option value="commercial">Commercial</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <!-- Email Address -->
+            <div class="form-box">
+              <label for="email"
+                >Email Address<span class="astr">*</span></label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+            <!-- Phone Number -->
+            <div class="form-box">
+              <label for="phone">Phone Number(optional)</label>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="123-456-7890"
+              />
+            </div>
+
+            <div class="form-box">
+              <label for="address"
+                >Street Address<span class="astr">*</span></label
+              >
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="123 somestreet road"
+                required
+              />
+            </div>
+            <div class="form-box">
+              <label for="state">State<span class="astr">*</span></label>
+              <input
+                type="text"
+                name="state"
+                id="state"
+                placeholder="IL"
+                required
+              />
+            </div>
+            <div class="form-box">
+              <label for="zip">Zipcode<span class="astr">*</span></label>
+              <input
+                type="text"
+                name="zip"
+                id="zip"
+                placeholder="61234"
+                required
+              />
+            </div>
           </div>
-          <div class="form-box">
-            <label for="state">State*</label>
-            <input type="text" name="state" id="state" placeholder="IL" />
-          </div>
-          <div class="form-box">
-            <label for="zip">Zipcode*</label>
-            <input type="text" name="zip" id="zip" placeholder="61234" />
-          </div>
+          <input class="submit-btn" type="submit" value="Submit" />
         </form>
       </div>
     </main>
