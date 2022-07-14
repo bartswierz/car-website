@@ -412,12 +412,6 @@ html {
   margin-bottom: 2rem;
 }
 
-.appointment-note {
-  font-size: 1.6rem;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
-}
-
 .car-type {
   /* display: block; */
 }
@@ -425,8 +419,36 @@ html {
 .form-box {
   font-size: 2rem;
   margin-left: 2rem;
+  gap: 4rem;
   display: block;
 }
+
+.service-checkbox {
+  font-size: 2rem;
+}
+
+.service-types {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 60%;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.form-items {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  gap: 4rem;
+}
+
+/* form input {
+  font-size: 2.5rem;
+} */
+
+.form-box input {
+  font-size: 2rem;
+}
+
 /* .appointment-image {
   width: 100rem;
   height: 100%;

@@ -580,25 +580,70 @@
       <div class="appointment-section appointment-container box-shadow">
         <h1 class="appointment-heading font-style">Schedule Appointment</h1>
         <!-- <img src="./img/tachometer.jpg" class="appointment-image" /> -->
-        <p class="appointment-message">Please fill out the information below</p>
-        <p class="appointment-note">
-          Note: If you prefer an at-home service, please fill out address
-          information.
+        <p class="appointment-message">
+          Please fill out the information below, we will reach out to you via
+          email once your appointment is scheduled. Thanks!
         </p>
         <!-- APPOINTMENT FORM -->
-        <form>
+        <form class="form-items">
+          <!-- Refer to MDN web docs <option> -->
+
+          <fieldset class="service-types">
+            <legend>Please choose services</legend>
+            <div class="service-checkbox">
+              <input type="checkbox" id="exterior" name="exterior" />
+              <label for="exterior">Exterior</label>
+            </div>
+            <div class="service-checkbox">
+              <input type="checkbox" id="interior" name="interior" />
+              <label for="interior">Interior</label>
+            </div>
+            <div class="service-checkbox">
+              <input type="checkbox" id="ppf" name="ppf" />
+              <label for="ppf">Paint Protection Film(PPF)</label>
+            </div>
+            <div class="service-checkbox">
+              <input type="checkbox" id="wraps" name="wraps" />
+              <label for="wraps">Custom Car Wrap</label>
+            </div>
+          </fieldset>
+          <!-- Car Type -->
           <div class="form-box">
-            <label for="car-type">Choose Car Type</label>
+            <label for="car-type">Car Type*</label>
+            <select id="car-type">
+              <option value="">Choose Car Type</option>
+              <option value="sedan">Sedan</option>
+              <option value="suv">SUV</option>
+              <option value="van">Van</option>
+              <option value="truck">Truck</option>
+              <option value="commercial">Commercial</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <!-- Email Address -->
+          <div class="form-box">
+            <label for="email">Email Address*</label>
             <input
-              type="text"
-              name="car-type"
-              id="car-type"
-              placeholder="SUV"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="name@example.com"
               required
             />
-            </div>
-            <div class="form-box">
-            <label for="address">Street Address</label>
+          </div>
+          <!-- Phone Number -->
+          <div class="form-box">
+            <label for="phone">Phone Number(optional)</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="123-456-7890"
+            />
+          </div>
+
+          <div class="form-box">
+            <label for="address">Street Address*</label>
             <input
               type="text"
               name="address"
@@ -606,23 +651,13 @@
               placeholder="123 somestreet road"
             />
           </div>
-            <div class="form-box">
-              <label for="state">State</label>
-              <input
-                type="text"
-                name="state"
-                id="state"
-                placeholder="Illinois"
-              />
-            </div>
-            <div class="form-box">
-              <label for="email" >Email Address*</label>
-              <input type="email" name="email" id="email" placeholder="name@example.com" required>
-            </div>
-            <div class="form-box">
-              <label for="phone">Phone Number</label>
-              <input type="text" name="phone" id="phone" placeholder="123-456-7890" />
-            </div>     
+          <div class="form-box">
+            <label for="state">State*</label>
+            <input type="text" name="state" id="state" placeholder="IL" />
+          </div>
+          <div class="form-box">
+            <label for="zip">Zipcode*</label>
+            <input type="text" name="zip" id="zip" placeholder="61234" />
           </div>
         </form>
       </div>
