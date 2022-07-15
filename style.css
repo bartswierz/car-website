@@ -494,6 +494,8 @@ html {
 /* lighter gray for placeholder text */
 input::placeholder {
   color: rgba(119, 119, 119, 0.5);
+  font-size: 1.6rem;
+  padding-left: 0.5rem;
 }
 
 fieldset {
@@ -533,7 +535,7 @@ fieldset {
   border: 0.25rem solid rgb(23, 75, 245);
   margin: 0 auto;
   width: 80rem;
-  height: 45rem;
+  height: 70rem;
   border-radius: 15px;
   padding-left: 2rem;
   font-size: 2rem;
@@ -542,7 +544,7 @@ fieldset {
 .contact-text {
   text-align: left;
   font-size: 1.8rem;
-  width: 50%;
+  width: 90%;
   margin-bottom: 1rem;
 }
 
@@ -551,13 +553,25 @@ fieldset {
   color: white;
 }
 
+/* styling our submit button */
 .contact-submit-btn {
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding-top: 2rem;
-  padding: 0.5rem;
+  padding: 1rem 9rem 1rem 9rem;
   border-radius: 15px;
   border: 0.25rem solid rgb(23, 75, 245);
-  /* display: inline-block; */
+}
+
+.contact-submit-btn:active,
+.contact-submit-btn:hover {
+  border: 0.25rem solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-submit {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Lining up items vertically */
@@ -571,4 +585,21 @@ fieldset {
   font-size: 2rem;
   border-radius: 9px;
   background-color: white;
+}
+
+.content-left {
+}
+
+.content-right {
+}
+/* 2 grid items */
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content-image {
+  width: 40rem;
+  height: 40rem;
+  height: 100%;
 }
