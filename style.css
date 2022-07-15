@@ -535,21 +535,24 @@ fieldset {
   border: 0.25rem solid rgb(23, 75, 245);
   margin: 0 auto;
   width: 80rem;
-  height: 70rem;
+  height: 31rem;
   border-radius: 15px;
   padding-left: 2rem;
   font-size: 2rem;
 }
 
-.contact-text {
+.contact-description {
   text-align: left;
   font-size: 1.8rem;
   width: 90%;
+  color: white;
+  /* line up with Email label */
+  margin-top: 2.1rem;
   margin-bottom: 1rem;
 }
 
 /* giving our contact text a different text color */
-.contact-text p {
+.contact-text {
   color: white;
 }
 
@@ -557,7 +560,7 @@ fieldset {
 .contact-submit-btn {
   font-size: 1.6rem;
   padding-top: 2rem;
-  padding: 1rem 9rem 1rem 9rem;
+  padding: 1rem 12rem 1rem 12rem;
   border-radius: 15px;
   border: 0.25rem solid rgb(23, 75, 245);
 }
@@ -577,20 +580,31 @@ fieldset {
 /* Lining up items vertically */
 .contact-submit label {
   display: block;
+  margin-bottom: 0.5rem;
 }
 
 /* Styling input textbox */
 .contact-submit input {
   margin: 0.8rem 0 0.8rem 0;
-  font-size: 2rem;
+  font-size: 2.3rem;
   border-radius: 9px;
   background-color: white;
 }
 
+/* .contact-submit {
+  inl
+} */
+
+/* holding our whole text section */
 .content-left {
+  width: 90%;
+  margin-left: 2rem;
 }
 
 .content-right {
+  margin-left: 5rem;
+  align-items: center;
+  justify-content: center;
 }
 /* 2 grid items */
 .grid-col-2 {
@@ -602,4 +616,9 @@ fieldset {
   width: 40rem;
   height: 40rem;
   height: 100%;
+}
+
+.content-note {
+  font-size: 1.6rem;
+  color: #555;
 }
