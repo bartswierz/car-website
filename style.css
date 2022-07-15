@@ -132,7 +132,8 @@ html {
   color: rgb(23, 75, 245);
   font-family: splash;
   font-weight: 400;
-  margin-left: 6rem;
+  margin-left: 2rem;
+  text-decoration: none;
 }
 
 .navbar {
@@ -621,4 +622,12 @@ fieldset {
 .content-note {
   font-size: 1.6rem;
   color: #555;
+}
+
+/********************************************************/
+/* TESTIMONIALS SECTION - PAGE */
+/********************************************************/
+
+.testimonial-test {
+  font-size: 10rem;
 }
