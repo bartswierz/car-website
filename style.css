@@ -190,12 +190,9 @@ html {
   color: rgb(65, 65, 65);
 }
 
-/* div holding our arrow at the bottom of page */
+/* div holding our arrow & 'back to top' text at the bottom of page */
 .back-to-top {
   text-align: center;
-}
-
-.back-text {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
@@ -658,6 +655,38 @@ fieldset {
 /* TESTIMONIALS SECTION - PAGE */
 /********************************************************/
 
-.testimonial-test {
-  font-size: 10rem;
+.testimonial-review {
+  margin: 0 auto;
+  width: 100rem;
+  height: auto;
+  padding: 2rem;
+  border: 0.25rem solid rgb(23, 75, 245);
+}
+
+.testimonial-photo {
+  border-radius: 50%;
+  font-size: 1.3rem;
+  padding: 0.4rem;
+  background-color: rgba(2, 36, 148, 0.808);
+  border: 0.15rem solid rgb(23, 75, 245);
+  display: inline-block;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  color: white;
+}
+
+.testimonial-star {
+  color: yellow;
+}
+
+/* customer name & rating - TOP HALF */
+.photo-name-rating {
+  display: flex;
+  gap: 1rem;
+  width: 20rem;
+}
+
+.testimonial-text {
 }

@@ -33,6 +33,7 @@ I took my car in to Redline to see if they could fix the dents on my hood and su
 
 ## Pamela Beesly
 
+TYPE: SEDAN
 Scenario: Frontend damage from Nellie driving the car into the bushes at the company parking lot
 
 # Text:
@@ -41,18 +42,22 @@ After trying to teach my coworker, Nellie how to drive, I ended up with damage t
 
 ## Meredith Palmer
 
-Vehicle: Ford Aerostar Minivan
+Vehicle: VAN
 Scenario: Came in to get panel restored from deep damage caused by parking in a tight spot. Ended up scrapping the entire driver's side panel trying to fit in the compact spot.
 
 # Text:
 
-After badly damaging my driver's side panels trying to park my minivan into a compact spot, I came to Redline. By some miracle, the technicians at Redline were able to repair the damage and save me a lot of money. I had enough money to go buy my son groceries and celebrate the rest of the night. If it wasn't for Redline, I'm not sure what we would eat that night, so I just wanted to say thank you Redline! To top it all off, the employees went above and beyond and did an interior clean. I had a lot of trash inside my car like wrappers and empty bottles. They cleaned everything out and did a free vacuum and seat shampooing on the house. The last time I got something for free was outback steaks and that was years ago! No one gives things out for free and for Redline employees to take the time to do something on the house means a lot! I recommend Redline to everyone and will be a customer for life.
+After badly damaging my driver's side panels trying to park my minivan into a compact spot, I came to Redline. By some miracle, the technicians at Redline were able to repair the damage and save me a lot of money. I had enough money to go buy my son groceries and celebrate the rest of the night. If it wasn't for Redline, I'm not sure what we would eat that night, so I just wanted to say thank you Redline! To top it all off, the employees went above and beyond and did an interior clean. I had a lot of trash inside my car like wrappers and empty bottles. They cleaned everything out and did a free vacuum and seat shampooing on the house. The last time I got something for free was Outback steaks and that was years ago! No one gives things out for free and for Redline employees to take the time to do something on the house means a lot! I recommend Redline to everyone and will be a customer for life.
 
 ## Kevin Malone
 
-Vehicle: Honda CR-V
+Vehicle: SUV
 Scenario: Interior Damage from spilled homemade chili while transporting it to The Office. He had to drive back home to get another suit and caused further damage by covering the driver's side seat with chili.
 
 # Text:
 
-After my mechanic wasn't able to help me clean my seats in my car, I took it in to Redline. Let me fill you in on the backstory as you won't believe me if I didn't. I made my famous "Kevin Malone Homemade Chili" the night before work to share with my coworkers at the office. The secret to a great chili is to undercook the onions. Sorry, I am getting off track, where was I? Oh yeah, everything was good, until I got off the elvator on my floor at work. I ended up spilling the whole pot of chili on the office floor by the reception desk. I panicked and tried to clean up the chili the best I could but I accidently slipped in the chili trying to clean it up before everyone showed up. I didn't have backup clothes in my car, so I had to drive back home in my dirty suit covered in chili. I got chili all over my seats and needed help quick so I went to my mechanic. After my mechanic wasn't able to help, Redline was my last hope. The employees at Redline were friendly and recommended the interior package. Redline was able to get rid of the chili stains out of my seats. I recommend Redline to everyone and will be coming back to them again if I take another spill. When me mechanic says its a no-go, I will go to Redline. Thanks Redline!
+After my mechanic wasn't able to help me clean my seats in my car, I took it in to Redline. Let me fill you in on the backstory as you won't believe me if I didn't. I made my famous "Kevin Malone Homemade Chili" the night before work to share with my coworkers at the office. The secret to a great chili is to undercook the onions. Sorry, I am getting off track, where was I? Oh yeah, everything was good, until I got off the elevator on my floor at work. I ended up spilling the whole pot of chili on the office floor by the reception desk. I panicked and tried to clean up the chili the best I could but I accidently slipped in the chili trying to clean it up before everyone showed up. I didn't have backup clothes in my car, so I had to drive back home in my dirty suit covered in chili. I got chili all over my seats and needed help quick so I went to my mechanic. After my mechanic wasn't able to help, Redline was my last hope. The employees at Redline were friendly and recommended the interior package. Redline was able to get rid of the chili stains out of my seats. I recommend Redline to everyone and will be coming back to them again if I take another spill. When me mechanic says its a no-go, I will go to Redline. Thanks Redline!
+
+Layout:
+Photo top-left | Name(Top) & Stars(Below) - Turn these into 2 column grid
+-Below whole section spread out to the content
