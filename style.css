@@ -695,7 +695,7 @@ fieldset {
 }
 
 .testimonial-star {
-  color: yellow;
+  color: rgb(234, 203, 0);
   font-size: 2.4rem;
   margin-top: 1rem;
 }
